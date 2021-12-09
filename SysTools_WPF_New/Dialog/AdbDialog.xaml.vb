@@ -1,0 +1,3 @@
+﻿Class AdbDialog
+
+End Class

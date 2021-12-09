@@ -1,0 +1,3 @@
+﻿Class TestConfigDialog
+
+End Class
