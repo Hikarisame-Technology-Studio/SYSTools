@@ -1,0 +1,3 @@
+﻿Class DiskTools
+
+End Class

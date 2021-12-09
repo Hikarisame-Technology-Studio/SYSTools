@@ -1,0 +1,3 @@
+﻿Class AdbTools
+
+End Class

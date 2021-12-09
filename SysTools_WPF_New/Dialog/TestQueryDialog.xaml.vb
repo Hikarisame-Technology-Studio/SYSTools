@@ -1,0 +1,3 @@
+﻿Class TestQueryDialog
+
+End Class

@@ -1,0 +1,14 @@
+﻿<muxc:ContentDialog
+    x:Class="AdbDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:muxc="http://schemas.modernwpf.com/2019"
+    Title="该工具暂未上线 ( 🕊咕了 ) "
+    CloseButtonText="Cancel"
+    DefaultButton="Close">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
+        <!-- Content body -->
+        <TextBlock Text="工具上线时间未定" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" />
+    </StackPanel>
+</muxc:ContentDialog>
