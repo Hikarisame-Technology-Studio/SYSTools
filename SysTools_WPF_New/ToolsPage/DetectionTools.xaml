@@ -14,13 +14,13 @@
                 <SolidColorBrush Color="#FF202020" Opacity="0.5"/>
             </Border.Background>
         </Border>
-        
+
         <Image x:Name="image" HorizontalAlignment="Right" VerticalAlignment="Bottom" Source="/SysTools_WPF_New;component/B-LOGO.png" Margin="0,300,-100,-100" Opacity="0.1"/>
         <Label Content="Info : 该页待完善(α测试阶段)" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="#FF352524" Margin="5,0,0,5"/>
 
         <ScrollViewer  VerticalScrollBarVisibility="Auto" MinWidth="1040" MinHeight="610" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-               <!--按钮固定上下大小66(px?)-->
+                <!--按钮固定上下大小66(px?)-->
                 <Button x:Name="Aida64" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
                     <TextBlock><InlineUIContainer>
                             <Image Source="/SysTools_WPF_New;component/Resource/Icon/DetectionICON/Aida64.png" Width="50" Height="50"/>

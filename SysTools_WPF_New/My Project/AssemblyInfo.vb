@@ -17,7 +17,7 @@ Imports System.Windows
 <Assembly: AssemblyProduct("SysTools_WPF_New")>
 <Assembly: AssemblyCopyright("Copyright ©  2021  Hikarisame Technology Studio")>
 <Assembly: AssemblyTrademark("")>
-<Assembly: ComVisible(false)>
+<Assembly: ComVisible(False)>
 
 '若要开始生成可本地化的应用程序，请设置
 '在您的 .vbproj 文件中的 <PropertyGroup> 内设置 <UICulture>CultureYouAreCodingWith</UICulture>。
@@ -55,6 +55,6 @@ Imports System.Windows
 '通过使用 "*"，如下所示:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("0.0.0.2")>
-<Assembly: AssemblyFileVersion("0.0.0.2")>
 <Assembly: NeutralResourcesLanguage("zh-CN")>
+<Assembly: AssemblyVersion("0.0.0.3")>
+<Assembly: AssemblyFileVersion("0.0.0.3")>
