@@ -250,7 +250,6 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
     </EmbeddedResource>
-    <None Include="Design\projectGuides.guides" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -311,6 +310,9 @@
     <Resource Include="Resource\Icon\DetectionICON\GPU-Z.png" />
     <Resource Include="Resource\Icon\DetectionICON\HWiNFO.png" />
     <Resource Include="Resource\Icon\DetectionICON\HWMonitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

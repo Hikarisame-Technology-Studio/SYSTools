@@ -29,18 +29,18 @@
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
                             <TextBlock Text="AIDA64提供了诸如协助超频，硬件侦错，压力测试和传感器监测等多种功能，而且还可以对处理器，系统内存和磁盘驱动器的性能进行全面评估。" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Height="13" Width="650"/>
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="73,0,0,8" Width="50" Height="33" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="Aida64_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE118;" />
                             </Button>
                         </InlineUIContainer><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="20,0,0,8" Width="50" Height="33" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="Aida64_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>
 
                     </TextBlock>
                 </Button>
-                <Button x:Name="CPUZ" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
+                <Button x:Name="CPU_Z" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
                     <TextBlock><InlineUIContainer>
                             <Image Source="/SysTools_WPF_New;component/Resource/Icon/DetectionICON/CPU-Z.png" Width="50" Height="50"/>
                         </InlineUIContainer><Run Text=" "/><Run Text=" "/><InlineUIContainer>
@@ -48,18 +48,18 @@
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
                             <TextBlock Text="CPU-Z提供一些关于处理器的信息，包含了制造厂及处理器名称，核心构造及封装技术，内部、外部频率，最大超频速度检测。" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Height="13" Width="650"/>
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="73,0,0,8" Width="50" Height="33" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="CPU_Z_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE118;" />
                             </Button>
                         </InlineUIContainer><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="20,0,0,8" Width="50" Height="33" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="CPU_Z_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>
 
                     </TextBlock>
                 </Button>
-                <Button x:Name="GPUZ" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
+                <Button x:Name="GPU_Z" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
                     <TextBlock><InlineUIContainer>
                             <Image Source="/SysTools_WPF_New;component/Resource/Icon/DetectionICON/GPU-Z.png" Width="50" Height="50"/>
                         </InlineUIContainer><Run Text=" "/><Run Text=" "/><InlineUIContainer>
@@ -67,11 +67,11 @@
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
                             <TextBlock Text="GPU-Z 是一个轻量级的系统实用程序，旨在提供有关您的显卡和图形处理器的重要信息。" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Width="650" Height="13"/>
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="73,0,0,8" Width="50" Height="33" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="GPU_Z_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE118;" />
                             </Button>
                         </InlineUIContainer><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="20,0,0,8" Width="50" Height="33" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="GPU_Z_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>
@@ -86,11 +86,11 @@
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
                             <TextBlock Text="HWiNFO 是一种用于硬件分析和监控的一体化解决方案，从快速概览展开到所有硬件组件的深度。始终保持最新状态，支持最新的技术和标准。" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Width="650" Height="13"/>
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="73,0,0,8" Width="50" Height="33" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="HWinfo_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE118;" />
                             </Button>
                         </InlineUIContainer><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="20,0,0,8" Width="50" Height="33" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="HWinfo_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>
@@ -105,11 +105,11 @@
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
                             <TextBlock Text="HWMonitor是一个硬件监控程序，它读取 PC 系统的主要健康传感器：电压、温度、风扇速度。" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Width="650" Height="13"/>
                         </InlineUIContainer><Run Text=" "/><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="73,0,0,8" Width="50" Height="33" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="HWmonitor_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE118;" />
                             </Button>
                         </InlineUIContainer><InlineUIContainer>
-                            <Button HorizontalAlignment="Center" Margin="20,0,0,8" Width="50" Height="33" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
+                            <Button x:Name="HWmonitor_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>
