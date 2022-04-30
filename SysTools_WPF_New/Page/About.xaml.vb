@@ -14,6 +14,7 @@ Class About
     End Sub
 
     Private Sub Update_Click(sender As Object, e As RoutedEventArgs) Handles Update.Click
-        AutoUpdater.Start()
+        AutoUpdater.Start("http://systools.hksstudio.work:5551/SYSTools_AutoUpdate.xml")
+        AutoUpdater.UpdateFormSize = New System.Drawing.Size(800, 600)
     End Sub
 End Class

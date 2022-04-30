@@ -96,15 +96,15 @@ Class DiskTools
     End Sub
 
     Private Sub Victoria_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles Victoria.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe") Then
-            Process.Start(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe")
+        If FileExist(AppPath + DiskTools + "Victoria\Victoria.exe") Then
+            Process.Start(AppPath + DiskTools + "Victoria\Victoria.exe")
         Else
             Dialog.ShowAsync()
         End If
     End Sub
     Private Sub H2TestW_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles H2TestW.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe") Then
-            Process.Start(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe")
+        If FileExist(AppPath + DiskTools + "H2TestW\H2TestW.exe") Then
+            Process.Start(AppPath + DiskTools + "H2TestW\H2TestW.exe")
         Else
             Dialog.ShowAsync()
         End If
