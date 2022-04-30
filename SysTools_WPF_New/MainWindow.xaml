@@ -38,7 +38,7 @@
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
 
-                <muxc:NavigationViewItem Content="BIOS工具" Tag="BIOS工具" x:Name="BIOS_Tools" IsTabStop="False">
+                <muxc:NavigationViewItem Content="硬件测试工具" Tag="硬件测试工具" x:Name="Test_Tools" IsTabStop="False">
                     <muxc:NavigationViewItem.Icon>
                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE950;" />
                     </muxc:NavigationViewItem.Icon>

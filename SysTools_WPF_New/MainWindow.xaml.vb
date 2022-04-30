@@ -20,10 +20,9 @@ Class MainWindow
         '配置检测工具 ( 仅64位系统 )
         FrameContent.Navigate(New Uri("pack://application:,,,/ToolsPage/DetectionTools.xaml", UriKind.Absolute))
     End Sub
-
-    Private Sub BIOS_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles BIOS_Tools.MouseDown
-        'BIOS工具
-        FrameContent.Navigate(New Uri("pack://application:,,,/ToolsPage/BIOSTools.xaml", UriKind.Absolute))
+    Private Sub Test_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Test_Tools.MouseDown
+        '硬件测试工具
+        FrameContent.Navigate(New Uri("pack://application:,,,/ToolsPage/TestTools.xaml", UriKind.Absolute))
     End Sub
 
     Private Sub Disk_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Disk_Tools.MouseDown
@@ -107,6 +106,8 @@ Class MainWindow
         sw.WriteLine("找一张你喜欢的格式为(.Jpg/.Png)的图片")
         sw.WriteLine("重命名为1 保持原文件后戳 丢到这个文件夹里面")
         sw.WriteLine("不出意外应该会修改软件背景图片")
+        sw.WriteLine("记得重启软件 我没加热更新(因为我不会 （；´д｀）ゞ)")
         sw.Close()
     End Sub
+
 End Class

@@ -6,7 +6,7 @@
       xmlns:muxc="http://schemas.modernwpf.com/2019"
       xmlns:local="clr-namespace:SysTools_WPF_New"
       mc:Ignorable="d" d:DesignHeight="610" d:DesignWidth="1040"
-      MinWidth="1040" MinHeight="610" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+      MinWidth="1040" MinHeight="610" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Loaded="Page_Loaded" >
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Border  BorderThickness="1" CornerRadius="5" Grid.RowSpan="3" Grid.ColumnSpan="2">
             <Border.Background>
@@ -18,6 +18,7 @@
 
         <ScrollViewer  VerticalScrollBarVisibility="Auto" MinWidth="1040" MinHeight="610" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <TextBlock Text="该页工具存放于'应用根目录/Software Package/DiskTools/'文件夹内(鼠标右键点击这条文字可打开文件夹)       下列工具请双击打开" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,5,0,0" FontSize="10" Foreground="#FFCFCED1" Height="13" MouseRightButtonDown="TextBlock_MouseRightButtonDown"/>
                 <!--按钮固定上下大小66(px?)-->
                 <Button x:Name="AS_SSD" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
                     <TextBlock><InlineUIContainer>
@@ -203,6 +204,25 @@
                             </Button>
                         </InlineUIContainer><InlineUIContainer>
                             <Button x:Name="Victoria_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
+                                        <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
+                            </Button>
+                        </InlineUIContainer>
+
+                    </TextBlock>
+                </Button>
+                <Button x:Name="H2TestW" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
+                    <TextBlock><InlineUIContainer>
+                            <Image Source="/SysTools_WPF_New;component/Resource/Icon/DiskToolsICON/H2TestW.png" Width="50" Height="50"/>
+                        </InlineUIContainer><Run Text=" "/><Run Text=" "/><InlineUIContainer>
+                            <TextBlock Text="H2TestW" VerticalAlignment="Top" Margin="20,-26,0,0" HorizontalAlignment="Left" FontSize="15" Width="142"/>
+                        </InlineUIContainer><Run Text=" "/><InlineUIContainer>
+                            <TextBlock Text="H2testw是一款u盘读写速度测试和坏块检测软件，通过往待测目录写入数据的方式测试u盘的实际写入速度校验写入的数据是否正确" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Width="650" Height="13"/>
+                        </InlineUIContainer><Run Text=" "/><InlineUIContainer>
+                            <Button x:Name="H2TestW_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载(跳转至Gitee)" Background="{x:Null}" BorderBrush="{x:Null}" >
+                                        <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE118;" />
+                            </Button>
+                        </InlineUIContainer><InlineUIContainer>
+                            <Button x:Name="H2TestW_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件官网" Background="{x:Null}" BorderBrush="{x:Null}" >
                                         <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>
