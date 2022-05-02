@@ -1,3 +1,0 @@
-﻿Class ProgramFailed
-
-End Class

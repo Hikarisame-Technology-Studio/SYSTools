@@ -1,3 +1,0 @@
-﻿Class Activation
-
-End Class

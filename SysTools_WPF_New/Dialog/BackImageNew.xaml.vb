@@ -1,3 +1,0 @@
-﻿Class BackImageNew
-
-End Class

@@ -1,3 +1,0 @@
-﻿Class TestErrorDialog
-
-End Class
