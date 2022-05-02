@@ -18,4 +18,10 @@ Class About
         AutoUpdater.UpdateFormSize = New System.Drawing.Size(800, 600)
         AutoUpdater.Start("https://systools.hksstudio.work/SYSTools_AutoUpdate.xml")
     End Sub
+
+    Private Sub Tool_Update_Click(sender As Object, e As RoutedEventArgs) Handles Tool_Update.Click
+        AutoUpdater.HttpUserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36"
+        AutoUpdater.UpdateFormSize = New System.Drawing.Size(800, 600)
+        AutoUpdater.Start("https://systools.hksstudio.work/SYSTools_Tools_AutoUpdate.xml")
+    End Sub
 End Class
