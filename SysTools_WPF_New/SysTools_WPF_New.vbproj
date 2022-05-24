@@ -88,6 +88,9 @@
     <Compile Include="Dialog\BackImageNew.xaml.vb">
       <DependentUpon>BackImageNew.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Dialog\NoUpdate.xaml.vb">
+      <DependentUpon>NoUpdate.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dialog\ProgramFailed.xaml.vb">
       <DependentUpon>ProgramFailed.xaml</DependentUpon>
     </Compile>
@@ -137,6 +140,10 @@
     <Page Include="Dialog\BackImageNew.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Dialog\NoUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Dialog\ProgramFailed.xaml">
       <SubType>Designer</SubType>

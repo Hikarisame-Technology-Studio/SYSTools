@@ -13,7 +13,7 @@ Class Home
         '开机时间/启动时间获取
         Dim UPTime As DateTime = DateTime.Now.AddMilliseconds(-(Environment.TickCount))
         Dim Nows As TimeSpan = Now - UPTime
-        Dim RunTime_ As String = Nows.Hours & Chr(58) & Nows.Minutes & Chr(58) & Nows.Seconds
+        Dim RunTime_ As String = Nows.Days & " 天 " & Nows.Hours & " 时 " & Nows.Minutes & " 分 " & Nows.Seconds & " 秒 "
         OpenTime.Text = UPTime
         RunTime.Text = RunTime_
 

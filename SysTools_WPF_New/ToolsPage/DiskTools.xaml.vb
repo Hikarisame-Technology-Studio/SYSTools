@@ -25,7 +25,10 @@ Class DiskTools
     End Sub
     Private Sub AS_SSD_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles AS_SSD.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "AS SSD Benchmark\AS SSD Benchmark.exe") Then
-            Process.Start(AppPath + DiskTools + "AS SSD Benchmark\AS SSD Benchmark.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "AS SSD Benchmark\AS SSD Benchmark.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -33,7 +36,10 @@ Class DiskTools
 
     Private Sub CrystalDiskInfo_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles CrystalDiskInfo.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe") Then
-            Process.Start(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "CrystalDiskInfo\CrystalDiskInfo.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -41,7 +47,10 @@ Class DiskTools
 
     Private Sub CrystalDiskMark_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles CrystalDiskMark.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "CrystalDiskMark\CrystalDiskMark.exe") Then
-            Process.Start(AppPath + DiskTools + "CrystalDiskMark\CrystalDiskMark.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "CrystalDiskMark\CrystalDiskMark.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -49,7 +58,10 @@ Class DiskTools
 
     Private Sub Disk_Benchmark_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles Disk_Benchmark.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "DiskBenchmark\DiskBenchmark.exe") Then
-            Process.Start(AppPath + DiskTools + "DiskBenchmark\DiskBenchmark.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "DiskBenchmark\DiskBenchmark.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -57,7 +69,10 @@ Class DiskTools
 
     Private Sub DiskGenius_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles DiskGenius.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "DiskGenius\DiskGenius.exe") Then
-            Process.Start(AppPath + DiskTools + "DiskGenius\DiskGenius.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "DiskGenius\DiskGenius.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -65,7 +80,10 @@ Class DiskTools
 
     Private Sub HD_Tune_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles HD_Tune.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "HDTune\HDTune.exe") Then
-            Process.Start(AppPath + DiskTools + "HDTune\HDTune.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "HDTune\HDTune.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -73,7 +91,10 @@ Class DiskTools
 
     Private Sub LLFTOOL_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles LLFTOOL.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "LLFTOOL\LLFTOOL.exe") Then
-            Process.Start(AppPath + DiskTools + "LLFTOOL\LLFTOOL.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "LLFTOOL\LLFTOOL.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -81,7 +102,10 @@ Class DiskTools
 
     Private Sub PartAssist_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles PartAssist.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "PartAssist\PartAssist.exe") Then
-            Process.Start(AppPath + DiskTools + "PartAssist\PartAssist.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "PartAssist\PartAssist.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -89,7 +113,10 @@ Class DiskTools
 
     Private Sub SSD_Z_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles SSD_Z.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "SSDZ\SSDZ.exe") Then
-            Process.Start(AppPath + DiskTools + "SSDZ\SSDZ.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "SSDZ\SSDZ.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -97,7 +124,10 @@ Class DiskTools
 
     Private Sub Victoria_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles Victoria.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "Victoria\Victoria.exe") Then
-            Process.Start(AppPath + DiskTools + "Victoria\Victoria.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "Victoria\Victoria.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If

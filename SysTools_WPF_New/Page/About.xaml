@@ -29,22 +29,30 @@
         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,150,0,0" FontSize="15" Text="UI设计 :" Foreground="White"/>
         <muxc:HyperlinkButton x:Name="ForeverUI" Content="@Forever" Margin="95,144,0,0" VerticalAlignment="Top" FontSize="15" Height="32" VerticalContentAlignment="Top" NavigateUri="https://github.com/Forever331" Cursor="Hand"/>
         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,190,0,0" FontSize="15" Text="软件协助 :" Foreground="White"/>
-        <muxc:HyperlinkButton x:Name="KanChan" Content="@偷税师柑柑" Margin="105,184,0,0" VerticalAlignment="Top" FontSize="15" Height="32" VerticalContentAlignment="Top" Cursor="Hand"/>
+        <muxc:HyperlinkButton x:Name="KanChan" Content="@偷税师柑柑" Margin="105,184,0,0" VerticalAlignment="Top" FontSize="15" Height="32" VerticalContentAlignment="Top" NavigateUri="https://github.com/YorokobiMaster" Cursor="Hand"/>
         <Button x:Name="QQ" Content="QQ群" Margin="30,245,0,0" VerticalAlignment="Top" Width="135" Height="33"/>
         <Button x:Name="Web" Content="官网" Margin="30,300,0,0" Width="135" Height="33" VerticalAlignment="Top"/>
         <Button x:Name="Github" Content="Github" Margin="30,355,0,0" Width="135" Height="33" VerticalAlignment="Top"/>
-        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,0,0,110" FontSize="15" Text="第一次写像样的软件 虽然代码只是能用的阶段 有问题还请提交Issue" Foreground="#FFA4A4A4"/>
-        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,0,0,85" FontSize="15" Foreground="#FFA4A4A4" Text="该有的都会有的 时间问题（Flag）"/>
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16,0,0,92" FontSize="15" Text="第一次写像样的软件 虽然代码只是能用的阶段 有问题还请提交Issue" Foreground="#FFA4A4A4"/>
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16,0,0,68" FontSize="15" Foreground="#FFA4A4A4" Text="该有的都会有的 时间问题（Flag）"/>
         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10" FontSize="15" Foreground="White" Text="©2018-2022 Hikarisame Technology Studio. All Rights Reserved."/>
-        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,0,0,60" FontSize="15" Foreground="#FFA4A4A4" Text="软件图片背景：Forever"/>
-        <Button x:Name="Update" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,110" Width="60" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="软件升级">
-            <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" />
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16,0,0,42" FontSize="15" Foreground="#FFA4A4A4" Text="软件图片背景：Forever"/>
+        <Button x:Name="Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,0,0,130" Width="60" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="软件升级" Panel.ZIndex="1">
+            <TextBlock Foreground="{x:Null}" ><InlineUIContainer Foreground="{x:Null}">
+                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" Foreground="White" />
+            </InlineUIContainer>
+            <TextBlock Text="123" Foreground="White"></TextBlock>
+            </TextBlock>
         </Button>
-        <Button x:Name="Tool_Update" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" Width="60" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="工具包升级">
+        <Button x:Name="Tool_Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="120,0,0,130" Width="60" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="工具包升级" Panel.ZIndex="1">
             <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" />
         </Button>
 
-
+        <ScrollViewer  VerticalScrollBarVisibility="Auto" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <!--内容预留-->
+            </StackPanel>
+        </ScrollViewer>
 
 
     </Grid>

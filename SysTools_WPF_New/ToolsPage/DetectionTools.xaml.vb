@@ -25,7 +25,10 @@ Class DetectionTools
     End Sub
     Private Sub Aida64_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles Aida64.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "Aida64\Aida64.exe") Then
-            Process.Start(AppPath + DiskTools + "Aida64\Aida64.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "Aida64\Aida64.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -33,7 +36,10 @@ Class DetectionTools
 
     Private Sub CPU_Z_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles CPU_Z.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "CPUZ\CPUZ.exe") Then
-            Process.Start(AppPath + DiskTools + "CPUZ\CPUZ.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "CPUZ\CPUZ.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -41,7 +47,10 @@ Class DetectionTools
 
     Private Sub GPU_Z_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles GPU_Z.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "GPUZ\GPUZ.exe") Then
-            Process.Start(AppPath + DiskTools + "GPUZ\GPUZ.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "GPUZ\GPUZ.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -49,7 +58,10 @@ Class DetectionTools
 
     Private Sub HWinfo_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles HWinfo.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "HWinfo\HWinfo.exe") Then
-            Process.Start(AppPath + DiskTools + "HWinfo\HWinfo.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "HWinfo\HWinfo.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
@@ -57,7 +69,10 @@ Class DetectionTools
 
     Private Sub HWmonitor_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles HWmonitor.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "HWmonitor\HWmonitor.exe") Then
-            Process.Start(AppPath + DiskTools + "HWmonitor\HWmonitor.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "HWmonitor\HWmonitor.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If

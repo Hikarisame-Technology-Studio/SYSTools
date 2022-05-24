@@ -1,0 +1,16 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:muxc="http://schemas.modernwpf.com/2019" 
+        xmlns:local="clr-namespace:SysTools_WPF_Update_Tools_"
+        muxc:WindowHelper.UseModernWindowStyle="True"
+        mc:Ignorable="d"
+        Title="ToolsUpdate 工具包更新器" Loaded="Window_Loaded" Height="200" Width="410">
+    <Grid>
+        <TextBlock x:Name="Version" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" Margin="0,35,0,0" Height="25" />
+        <TextBlock x:Name="Cloud_Version" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="等待获取版本更新中..."/>
+        <TextBlock x:Name="Version_Verify" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="18" Margin="0,0,0,35"/>
+    </Grid>
+</Window>

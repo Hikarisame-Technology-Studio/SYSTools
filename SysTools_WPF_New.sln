@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Blend for Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SysTools_WPF_New", "SysTools_WPF_New\SysTools_WPF_New.vbproj", "{A9D748A7-7B56-4299-B3F1-4FED5F23AB56}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SysTools_WPF_Update(Tools)", "SysTools_WPF_Update(Tools)\SysTools_WPF_Update(Tools).vbproj", "{610E57B7-F743-4087-A558-D5CDA26C23B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A9D748A7-7B56-4299-B3F1-4FED5F23AB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D748A7-7B56-4299-B3F1-4FED5F23AB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D748A7-7B56-4299-B3F1-4FED5F23AB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{610E57B7-F743-4087-A558-D5CDA26C23B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610E57B7-F743-4087-A558-D5CDA26C23B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610E57B7-F743-4087-A558-D5CDA26C23B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610E57B7-F743-4087-A558-D5CDA26C23B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

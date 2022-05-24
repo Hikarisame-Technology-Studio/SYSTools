@@ -32,7 +32,10 @@ Class TestTools
 
     Private Sub IntelBurnTest_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles IntelBurnTest.MouseDoubleClick
         If FileExist(AppPath + DiskTools + "IntelBurnTest\IntelBurnTest.exe") Then
-            Process.Start(AppPath + DiskTools + "IntelBurnTest\IntelBurnTest.exe")
+            Try
+                Process.Start(AppPath + DiskTools + "IntelBurnTest\IntelBurnTest.exe")
+            Catch ex As Exception
+            End Try
         Else
             Dialog.ShowAsync()
         End If
