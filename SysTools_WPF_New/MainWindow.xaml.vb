@@ -3,6 +3,15 @@ Imports System.Windows.Controls
 Class MainWindow
     Private Sub Window_Loaded(sender As Object, e As RoutedEventArgs)
         File.Delete("Info.xml")
+        '程序启动数量限制
+        Dim AppName As String = Process.GetCurrentProcess.ProcessName
+        Dim ProcessTotal As Integer = Process.GetProcessesByName(AppName).Length
+        If ProcessTotal > 1 Then
+            MessageBox.Show("该程序有一个同名进程正在运行!", "程序冲突!", vbOKOnly)
+            Me.Close()
+        End If
+        AppName = Nothing
+        ProcessTotal = Nothing
         Title = "SysTools Ver" + (Application.ResourceAssembly.GetName().Version.ToString())
     End Sub
 
