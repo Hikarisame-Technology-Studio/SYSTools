@@ -37,15 +37,21 @@
         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16,0,0,68" FontSize="15" Foreground="#FFA4A4A4" Text="该有的都会有的 时间问题（Flag）"/>
         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10,0,0,10" FontSize="15" Foreground="White" Text="©2018-2022 Hikarisame Technology Studio. All Rights Reserved."/>
         <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="16,0,0,42" FontSize="15" Foreground="#FFA4A4A4" Text="软件图片背景：Forever"/>
-        <Button x:Name="Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,0,0,130" Width="60" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="软件升级" Panel.ZIndex="1">
-            <TextBlock Foreground="{x:Null}" ><InlineUIContainer Foreground="{x:Null}">
-                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" Foreground="White" />
-            </InlineUIContainer>
-            <TextBlock Text="123" Foreground="White"></TextBlock>
+        <Button x:Name="Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,0,0,130" Width="150" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="软件升级" Panel.ZIndex="1" Padding="0,0,0,0">
+            <TextBlock Foreground="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <InlineUIContainer Foreground="{x:Null}">
+                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </InlineUIContainer>
+                <TextBlock Text="软件升级" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,-5,0,0"/>
             </TextBlock>
         </Button>
-        <Button x:Name="Tool_Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="120,0,0,130" Width="60" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="工具包升级" Panel.ZIndex="1">
-            <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" />
+        <Button x:Name="Tool_Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="220,0,0,130" Width="150" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="工具包升级" Panel.ZIndex="1" Padding="0,0,0,0">
+            <TextBlock Foreground="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <InlineUIContainer Foreground="{x:Null}">
+                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                </InlineUIContainer>
+                <TextBlock Text="工具包升级" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,-5,0,0"/>
+            </TextBlock>
         </Button>
 
         <ScrollViewer  VerticalScrollBarVisibility="Auto" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
