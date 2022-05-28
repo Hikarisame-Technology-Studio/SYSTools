@@ -8,6 +8,11 @@
       mc:Ignorable="d"       
       d:DesignHeight="610" d:DesignWidth="1040"
       MinWidth="1040" MinHeight="610" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+    <Page.Resources>
+        <ControlTemplate x:Key="HyperlinkButtonTemplate1">
+            <TextBlock TextAlignment="Left"><Run Text="https://github.com/Kinnara/ModernWpf"/></TextBlock>
+        </ControlTemplate>
+    </Page.Resources>
     <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
