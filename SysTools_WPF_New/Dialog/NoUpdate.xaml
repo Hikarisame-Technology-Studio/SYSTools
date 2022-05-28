@@ -9,6 +9,6 @@
 
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
         <!-- Content body -->
-        <TextBlock Text="暂未获取软件更新" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <TextBlock Text="暂未获取更新" TextWrapping="Wrap" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" />
     </StackPanel>
 </muxc:ContentDialog>
