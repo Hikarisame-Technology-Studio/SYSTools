@@ -57,6 +57,134 @@
         <ScrollViewer  VerticalScrollBarVisibility="Auto" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <!--内容预留-->
+                <TextBlock Text="使用的组件以及对应源代码许可" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" Margin="0,10,0,0"/>
+                <Border BorderThickness="0,0,0,1" Height="1" Width="300" VerticalAlignment="Top" Margin="0,10,0,0">
+                    <Border.BorderBrush>
+                        <SolidColorBrush Color="White" Opacity="0.5"/>
+                    </Border.BorderBrush>
+                </Border>
+
+                <TextBlock Text="ModernWPF UI Library (MIT License)" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/Kinnara/ModernWpf" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/Kinnara/ModernWpf</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/Kinnara/ModernWpf/blob/master/LICENSE" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/Kinnara/ModernWpf/blob/master/LICENSE</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text="FluentSystemIconsForWPF" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://www.nuget.org/packages/FluentSystemIconsForWPF" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://www.nuget.org/packages/FluentSystemIconsForWPF</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text="Fluent UI System Icons (MIT License)" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/microsoft/fluentui-system-icons" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/microsoft/fluentui-system-icons</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/microsoft/fluentui-system-icons/blob/master/LICENSE" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/microsoft/fluentui-system-icons/blob/master/LICENSE</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text="AutoUpdater.NET (MIT License)" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/ravibpatel/AutoUpdater.NET" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/ravibpatel/AutoUpdater.NET</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/ravibpatel/AutoUpdater.NET/blob/master/LICENSE" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/ravibpatel/AutoUpdater.NET/blob/master/LICENSEE</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text="Microsoft.Windows.SDK.Contracts" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://aka.ms/WinSDKProjectURL" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://aka.ms/WinSDKProjectURL</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://aka.ms/WinSDKLicenseURL" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://aka.ms/WinSDKLicenseURL</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text=".NET Runtime" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/dotnet/runtime" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/dotnet/runtime</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/dotnet/runtime/blob/main/LICENSE.TXT" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/dotnet/runtime/blob/main/LICENSE.TXT</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text="System.ValueTuple" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://dot.net/" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://dot.net/</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://github.com/dotnet/corefx/blob/master/LICENSE.TXT" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
+                <TextBlock Text="开发所使用的工具" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="14" Margin="0,30,0,0"/>
+                <Border BorderThickness="0,0,0,1" Height="1" Width="200" VerticalAlignment="Top" Margin="0,10,0,0">
+                    <Border.BorderBrush>
+                        <SolidColorBrush Color="White" Opacity="0.5"/>
+                    </Border.BorderBrush>
+                </Border>
+
+                <TextBlock Text="Visual Studio 2022" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10,0,0" FontSize="16"/>
+                <muxc:HyperlinkButton NavigateUri="https://visualstudio.microsoft.com" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,20">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://visualstudio.microsoft.com</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
+
             </StackPanel>
         </ScrollViewer>
 
