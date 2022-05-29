@@ -2,7 +2,7 @@
 
 Class DetectionTools
     Dim AppPath As String = Directory.GetCurrentDirectory()
-    Dim DiskTools As String = "\Software Package\DetectionTools\"
+    Dim DetectionTools As String = "\Software Package\DetectionTools\"
     Dim Dialog As New ProgramFailed()
     Private Function FileExist(ByVal Str_File As String) As Boolean
         '用于查找文件是否存在
@@ -13,20 +13,20 @@ Class DetectionTools
         DirExist = Directory.Exists(Str_Path)
     End Function
     Private Sub Page_Loaded(sender As Object, e As RoutedEventArgs)
-        If DirExist(AppPath + DiskTools) Then
+        If DirExist(AppPath + DetectionTools) Then
         Else
-            Directory.CreateDirectory(AppPath + DiskTools)
+            Directory.CreateDirectory(AppPath + DetectionTools)
         End If
     End Sub
     Private Sub TextBlock_MouseRightButtonDown(sender As Object, e As MouseButtonEventArgs)
-        If DirExist(AppPath + DiskTools) Then
-            Process.Start("explorer.exe", AppPath + DiskTools)
+        If DirExist(AppPath + DetectionTools) Then
+            Process.Start("explorer.exe", AppPath + DetectionTools)
         End If
     End Sub
     Private Sub Aida64_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles Aida64.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "Aida64\Aida64.exe") Then
+        If FileExist(AppPath + DetectionTools + "Aida64\Aida64.exe") Then
             Try
-                Process.Start(AppPath + DiskTools + "Aida64\Aida64.exe")
+                Process.Start(AppPath + DetectionTools + "Aida64\Aida64.exe")
             Catch ex As Exception
             End Try
         Else
@@ -35,9 +35,9 @@ Class DetectionTools
     End Sub
 
     Private Sub CPU_Z_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles CPU_Z.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "CPUZ\CPUZ.exe") Then
+        If FileExist(AppPath + DetectionTools + "CPUZ\CPUZ.exe") Then
             Try
-                Process.Start(AppPath + DiskTools + "CPUZ\CPUZ.exe")
+                Process.Start(AppPath + DetectionTools + "CPUZ\CPUZ.exe")
             Catch ex As Exception
             End Try
         Else
@@ -46,9 +46,9 @@ Class DetectionTools
     End Sub
 
     Private Sub GPU_Z_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles GPU_Z.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "GPUZ\GPUZ.exe") Then
+        If FileExist(AppPath + DetectionTools + "GPUZ\GPUZ.exe") Then
             Try
-                Process.Start(AppPath + DiskTools + "GPUZ\GPUZ.exe")
+                Process.Start(AppPath + DetectionTools + "GPUZ\GPUZ.exe")
             Catch ex As Exception
             End Try
         Else
@@ -57,9 +57,9 @@ Class DetectionTools
     End Sub
 
     Private Sub HWinfo_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles HWinfo.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "HWinfo\HWinfo.exe") Then
+        If FileExist(AppPath + DetectionTools + "HWinfo\HWinfo.exe") Then
             Try
-                Process.Start(AppPath + DiskTools + "HWinfo\HWinfo.exe")
+                Process.Start(AppPath + DetectionTools + "HWinfo\HWinfo.exe")
             Catch ex As Exception
             End Try
         Else
@@ -68,9 +68,9 @@ Class DetectionTools
     End Sub
 
     Private Sub HWmonitor_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles HWmonitor.MouseDoubleClick
-        If FileExist(AppPath + DiskTools + "HWmonitor\HWmonitor.exe") Then
+        If FileExist(AppPath + DetectionTools + "HWmonitor\HWmonitor.exe") Then
             Try
-                Process.Start(AppPath + DiskTools + "HWmonitor\HWmonitor.exe")
+                Process.Start(AppPath + DetectionTools + "HWmonitor\HWmonitor.exe")
             Catch ex As Exception
             End Try
         Else
