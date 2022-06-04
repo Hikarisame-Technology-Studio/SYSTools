@@ -44,6 +44,10 @@ Class MainWindow
         FrameContent.Navigate(New Uri("pack://application:,,,/ToolsPage/PeripheralsTools.xaml", UriKind.Absolute))
     End Sub
 
+    Private Sub Repairing_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Repairing_Tools.MouseDown
+        '运行库安装工具
+        FrameContent.Navigate(New Uri("pack://application:,,,/Page/RepairingTools.xaml", UriKind.Absolute))
+    End Sub
     Private Sub Adb_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Adb_Tools.MouseDown
         'Adb工具Box
         FrameContent.Navigate(New Uri("pack://application:,,,/Page/AdbTools.xaml", UriKind.Absolute))

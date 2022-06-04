@@ -56,6 +56,12 @@
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
 
+                <muxc:NavigationViewItem Content="运行库安装工具" Tag="运行库安装工具" x:Name="Repairing_Tools" IsTabStop="False">
+                    <muxc:NavigationViewItem.Icon>
+                        <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE945;" />
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+                
                 <muxc:NavigationViewItemSeparator/>
 
                 <muxc:NavigationViewItem Content="安卓ADB工具" Tag="安卓ADB工具" x:Name="Adb_Tools" ToolTip= "功能未完成" IsTabStop="False" >
