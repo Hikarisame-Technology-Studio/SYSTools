@@ -2,7 +2,6 @@
 Imports System.Xml
 Imports System.IO
 
-
 Class Test
     Private Function Boo_FileExist(ByVal Str_File As String) As Boolean
         Boo_FileExist = System.IO.File.Exists(Str_File)
@@ -32,7 +31,7 @@ Class Test
 
     End Sub
 
-    Public Sub Xml()
+    Private Sub Xml()
 
         TestView.Items.Clear()
 
@@ -53,10 +52,15 @@ Class Test
                 TestView.Items.Add(Chr(32) + Chr(32) + Chr(32) + Chr(32) + xnf.InnerText)
             Next xnf
         Next i
+
     End Sub
 
+    Dim TestConfigDialog As New TestConfigDialog()
+    Dim TestErrorDialog As New TestErrorDialog()
+    Private Sub Test()
 
-    Public Sub Test()
+        '这是一段特别奇怪的屎山 以至于我以后更新都可能不会动这个地方了 佛主保佑 永无BUG（By Forever）
+
         '操作系统信息
         Dim OpSystem As New ManagementObjectSearcher("select * from win32_OperatingSystem")
         Dim OpS As ManagementObjectCollection = OpSystem.Get()
@@ -170,12 +174,10 @@ Class Test
 
             End Using
 
-            Dim TestConfigDialog As New TestConfigDialog()
             TestConfigDialog.ShowAsync()
 
         Catch er As Exception
 
-            Dim TestErrorDialog As New TestErrorDialog()
             TestErrorDialog.ShowAsync()
 
             Using Xml_Writer As XmlWriter = XmlWriter.Create("Info.xml", XmlSettings)
