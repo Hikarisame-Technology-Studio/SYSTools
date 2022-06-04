@@ -2,7 +2,6 @@
 Imports System.Xml
 Imports System.IO
 
-
 Class Test
     Private Function Boo_FileExist(ByVal Str_File As String) As Boolean
         Boo_FileExist = System.IO.File.Exists(Str_File)
