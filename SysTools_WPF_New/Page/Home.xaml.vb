@@ -49,23 +49,25 @@ Class Home
 
     Private Async Sub IPv4_Info()
         Try
-            Dim IPv4Test As HttpResponseMessage = Await client.GetAsync("https://api-ipv4.ip.sb/ip")
+            Me.IPv4.Text = "Now Loading..."
+            Dim IPv4Test As HttpResponseMessage = Await client.GetAsync("https://api.ipify.org")
             IPv4Test.EnsureSuccessStatusCode()
             Dim IPv4 As String = Await IPv4Test.Content.ReadAsStringAsync()
             Me.IPv4.Text = "当前IPv4地址 : " + IPv4
         Catch IPv4Error As HttpRequestException
-            IPv4.Text = "!"
+            IPv4.Text = "当前网络可能没有IPV4地址"
         End Try
     End Sub
 
     Private Async Sub IPv6_Info()
         Try
+            Me.IPv6.Text = "Now Loading..."
             Dim IPv6Test As HttpResponseMessage = Await client.GetAsync("https://speed.neu6.edu.cn/getIP.php")
             IPv6Test.EnsureSuccessStatusCode()
             Dim IPv6 As String = Await IPv6Test.Content.ReadAsStringAsync()
             Me.IPv6.Text = "当前IPv6地址 : " + IPv6
         Catch IPv6Error As HttpRequestException
-            IPv6.Text = "!"
+            IPv6.Text = "当前网络可能没有IPV6地址"
         End Try
     End Sub
 
