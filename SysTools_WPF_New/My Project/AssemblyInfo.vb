@@ -56,5 +56,5 @@ Imports System.Windows
 ' <Assembly: AssemblyVersion("1.0.*")>
 
 <Assembly: NeutralResourcesLanguage("zh-CN")>
-<Assembly: AssemblyVersion("0.0.0.6")>
-<Assembly: AssemblyFileVersion("0.0.0.6")>
+<Assembly: AssemblyVersion("0.0.0.7")>
+<Assembly: AssemblyFileVersion("0.0.0.7")>
