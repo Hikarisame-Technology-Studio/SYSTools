@@ -45,7 +45,7 @@
         <Button x:Name="Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,0,0,130" Width="150" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="软件升级" Panel.ZIndex="1" Padding="0,0,0,0">
             <TextBlock Foreground="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center" >
                 <InlineUIContainer Foreground="{x:Null}">
-                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE117;" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
                 </InlineUIContainer>
                 <TextBlock Text="软件升级" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,-5,0,0"/>
             </TextBlock>
@@ -53,7 +53,7 @@
         <Button x:Name="Tool_Update" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="220,0,0,130" Width="150" Height="60" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}" Focusable="False" ToolTip="工具包升级" Panel.ZIndex="1" Padding="0,0,0,0">
             <TextBlock Foreground="{x:Null}" HorizontalAlignment="Center" VerticalAlignment="Center" >
                 <InlineUIContainer Foreground="{x:Null}">
-                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE117;" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE117;" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" />
                 </InlineUIContainer>
                 <TextBlock Text="工具包升级" Foreground="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,-5,0,0"/>
             </TextBlock>

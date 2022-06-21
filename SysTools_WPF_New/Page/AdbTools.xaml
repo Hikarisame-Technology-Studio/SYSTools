@@ -10,7 +10,7 @@
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="功能预留页" VerticalAlignment="Top" FontSize="40" Foreground="#FFAEDBFE" Margin="0,90,0,0" Grid.IsSharedSizeScope="True" />
         <TextBlock x:Name="textBlock1" TextWrapping="Wrap" VerticalAlignment="Bottom" Margin="0,0,0,60" HorizontalAlignment="Center" ><InlineUIContainer>
-                <muxc:FontIcon FontFamily="/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons" Glyph="&#xE822;" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFAEDBFE" FontSize="100" FontWeight="Light" />
+                <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE822;" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFAEDBFE" FontSize="100" FontWeight="Light" />
             </InlineUIContainer></TextBlock>
         <TextBlock x:Name="Info" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="40" Foreground="#FFAEDBFE" Margin="0,-80,0,0" ><Run Text="如有需要添加的功能请前往关于页面联系我们"/></TextBlock>
 

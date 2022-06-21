@@ -11,8 +11,8 @@
                 <muxc:XamlControlsResources />
                 <!-- Other merged dictionaries here -->
             </ResourceDictionary.MergedDictionaries>
+            <FontFamily x:Key="SegoeIcons">/SysTools_WPF_New;component/Resource/#Segoe Fluent Icons</FontFamily>
             <!-- Other app resources here -->
-            <FontFamily x:Key="Segoe Icons">../Resource/SegoeIcons</FontFamily>
         </ResourceDictionary>
     </Application.Resources>   
 </Application>
