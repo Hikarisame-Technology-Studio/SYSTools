@@ -14,7 +14,7 @@ Class MainWindow
             If Application.ResourceAssembly.GetName().Version.ToString() = MyWebCode Then
                 Version_Verify.Text = "暂无更新"
             Else
-                Version_Verify.Text = "有新版本 等待获取更新"
+                Version_Verify.Text = "有新版本 等待获取更新.."
                 AutoUpdateVersion()
             End If
         Catch err As HttpRequestException
