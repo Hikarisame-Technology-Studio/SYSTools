@@ -26,7 +26,7 @@ Class About
         Dim MyReader As HttpResponseMessage = Await Client.GetAsync("https://systools.hksstudio.work/SYSTools_Update_Version")
         MyReader.EnsureSuccessStatusCode()
         Dim MyWebCode As String = Await MyReader.Content.ReadAsStringAsync()
-        If Application.ResourceAssembly.GetName().Version.ToString() = MyWebCode Then
+        If Application.ResourceAssembly.GetName().Version.ToString() >= MyWebCode Then
             Dim Dialog As New NoUpdate()
             Await Dialog.ShowAsync().ConfigureAwait(False)
         Else
