@@ -100,6 +100,9 @@
     <Compile Include="Page\AdbTools.xaml.vb">
       <DependentUpon>AdbTools.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page\ChangeWindows.xaml.vb">
+      <DependentUpon>ChangeWindows.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page\RepairingTools.xaml.vb">
       <DependentUpon>RepairingTools.xaml</DependentUpon>
     </Compile>
@@ -172,6 +175,10 @@
     <Page Include="Page\AdbTools.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page\ChangeWindows.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Page\RepairingTools.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -282,10 +289,10 @@
       <Version>1.0.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Web.WebView2">
-      <Version>1.0.1264.42</Version>
+      <Version>1.0.1293.44</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Windows.SDK.Contracts">
-      <Version>10.0.22621.1</Version>
+      <Version>10.0.22621.2</Version>
     </PackageReference>
     <PackageReference Include="ModernWpfUI">
       <Version>0.9.6</Version>
