@@ -134,6 +134,13 @@
                         </ControlTemplate>
                     </muxc:HyperlinkButton.Template>
                 </muxc:HyperlinkButton>
+                <muxc:HyperlinkButton NavigateUri="https://aka.ms/WinSDKLicenseURL" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
+                    <muxc:HyperlinkButton.Template>
+                        <ControlTemplate>
+                            <TextBlock TextAlignment="Left" >https://aka.ms/WinSDKLicenseURL</TextBlock>
+                        </ControlTemplate>
+                    </muxc:HyperlinkButton.Template>
+                </muxc:HyperlinkButton>
 
                 <TextBlock Text=".NET Runtime" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
                 <muxc:HyperlinkButton NavigateUri="https://github.com/dotnet/runtime" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
@@ -163,15 +170,6 @@
                     <muxc:HyperlinkButton.Template>
                         <ControlTemplate>
                             <TextBlock TextAlignment="Left" >https://github.com/dotnet/corefx/blob/master/LICENSE.TXT</TextBlock>
-                        </ControlTemplate>
-                    </muxc:HyperlinkButton.Template>
-                </muxc:HyperlinkButton>
-
-                <TextBlock Text="Microsoft.Web.WebView2" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" FontSize="16"/>
-                <muxc:HyperlinkButton NavigateUri="https://aka.ms/webview/" HorizontalAlignment="Center" UseSystemFocusVisuals="True" FontSize="12" Cursor="Hand" Margin="0,5,0,0">
-                    <muxc:HyperlinkButton.Template>
-                        <ControlTemplate>
-                            <TextBlock TextAlignment="Left" >https://aka.ms/webview/</TextBlock>
                         </ControlTemplate>
                     </muxc:HyperlinkButton.Template>
                 </muxc:HyperlinkButton>
