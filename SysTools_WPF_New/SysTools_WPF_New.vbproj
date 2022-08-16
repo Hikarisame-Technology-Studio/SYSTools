@@ -127,9 +127,6 @@
     <Compile Include="ToolsPage\DiskTools.xaml.vb">
       <DependentUpon>DiskTools.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\GithubRecommend.xaml.vb">
-      <DependentUpon>GithubRecommend.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ToolsPage\PeripheralsTools.xaml.vb">
       <DependentUpon>PeripheralsTools.xaml</DependentUpon>
     </Compile>
@@ -213,10 +210,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ToolsPage\DiskTools.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Page\GithubRecommend.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
