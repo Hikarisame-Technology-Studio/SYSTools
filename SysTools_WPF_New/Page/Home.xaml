@@ -24,7 +24,6 @@
             <Border.Background>
                 <SolidColorBrush Color="#FF202020" Opacity="0.5"/>
             </Border.Background>
-            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="α 测试 ( 未来可能会修改 )" Foreground="#FF202020" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
         </Border>
         <StackPanel x:Name="Home_SP_Tip" Margin="270,0" Height="100" Width="500" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" ToolTip="" Grid.ColumnSpan="2">
             <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xF1AD;" HorizontalAlignment="Center" VerticalAlignment="Center" Width="70" Height="70" FontSize="45" Margin="15,0,0,0" Foreground="White"  />
@@ -54,7 +53,7 @@
                 <SolidColorBrush Color="#FC272727" Opacity="0.75"/>
             </Border.Background>
         </Border>
-        <TextBlock x:Name="IP" TextWrapping="Wrap" Text="公网IP ( IPv4 : ipify.org &amp; IPv6 : neu6.edu ) 点击星号获取" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" FontSize="20" Margin="0,20,0,0" Grid.Column="1" Grid.Row="1"/>
+        <TextBlock x:Name="IP" TextWrapping="Wrap" Text="公网IP ( IPv4 : ipip.net &amp; IPv6 : neu6.edu ) 点击星号获取" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" FontSize="20" Margin="0,20,0,0" Grid.Column="1" Grid.Row="1"/>
         <TextBlock x:Name="IPv4" Text="***.***.***.***" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20" Margin="0,-40,0,0" Grid.Column="1" Grid.Row="1"/>
         <TextBlock x:Name="IPv6" Text="****:****:****:****:****:****:****:****" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20" Margin="0,0,0,-100" Grid.Column="1" Grid.Row="1"/>
         <TextBlock x:Name="IPNull" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="20" Margin="0,30,0,0" Grid.Column="1" Grid.Row="1"/>

@@ -64,9 +64,9 @@ Class MainWindow
         FrameContent.Navigate(New Uri("pack://application:,,,/Page/About.xaml", UriKind.Absolute))
     End Sub
 
-    Private Sub GithubRecommend_Page_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles GithubRecommend_Page.MouseDown
-        'Github热门项目推荐 (用户上传)
-        FrameContent.Navigate(New Uri("pack://application:,,,/Page/GithubRecommend.xaml", UriKind.Absolute))
+    Private Sub GithubRecommend_Page_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles ChangeWindows_Page.MouseDown
+        'Windows时间线
+        FrameContent.Navigate(New Uri("pack://application:,,,/Page/ChangeWindows.xaml", UriKind.Absolute))
     End Sub
 
     Private Sub Grid_Loaded(sender As Object, e As RoutedEventArgs)

@@ -6,6 +6,7 @@
       xmlns:muxc="http://schemas.modernwpf.com/2019"
       xmlns:local="clr-namespace:SysTools_WPF_New"
       mc:Ignorable="d" 
+      d:DesignHeight="610" d:DesignWidth="1040"
       Width="1040" Height="610" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="功能预留页" VerticalAlignment="Top" FontSize="40" Foreground="#FFAEDBFE" Margin="0,90,0,0" Grid.IsSharedSizeScope="True" />

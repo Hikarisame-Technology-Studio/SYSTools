@@ -71,9 +71,9 @@
 
                 <muxc:NavigationViewItemSeparator/>
 
-                <muxc:NavigationViewItem Content="Github推荐" Tag="GithubRecommend" x:Name="GithubRecommend_Page" IsTabStop="False">
+                <muxc:NavigationViewItem Content="Windows Timeline" Tag="ChangeWindows" x:Name="ChangeWindows_Page" IsTabStop="False">
                     <muxc:NavigationViewItem.Icon>
-                        <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xECAD;" />
+                        <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xEBC6;" />
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
 

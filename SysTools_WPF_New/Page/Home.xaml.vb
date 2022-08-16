@@ -50,10 +50,10 @@ Class Home
     Private Async Sub IPv4_Info()
         Try
             Me.IPv4.Text = "Now Loading..."
-            Dim IPv4Test As HttpResponseMessage = Await client.GetAsync("https://api.ipify.org")
+            Dim IPv4Test As HttpResponseMessage = Await client.GetAsync("https://myip.ipip.net/")
             IPv4Test.EnsureSuccessStatusCode()
             Dim IPv4 As String = Await IPv4Test.Content.ReadAsStringAsync()
-            Me.IPv4.Text = "当前IPv4地址 : " + IPv4
+            Me.IPv4.Text = IPv4
         Catch IPv4Error As HttpRequestException
             IPv4.Text = "当前网络可能没有IPV4地址"
         End Try
