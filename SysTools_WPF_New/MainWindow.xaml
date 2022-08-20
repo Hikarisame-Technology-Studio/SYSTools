@@ -96,7 +96,7 @@
             </muxc:NavigationView.FooterMenuItems>
 
 
-            <Frame x:Name="FrameContent" NavigationUIVisibility="hidden" HorizontalAlignment="stretch" VerticalAlignment="stretch" Margin="4" Source="pack://application:,,,/page/home.xaml" IsTabStop="False"/>
+            <ContentControl x:Name="FrameContent"  HorizontalAlignment="stretch" VerticalAlignment="stretch" Margin="4" IsTabStop="False"/>
 
 
         </muxc:NavigationView>
