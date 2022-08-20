@@ -11,6 +11,7 @@ Class Test
         If Boo_FileExist(FileLoad & "Info.xml") Then
             Xml()
         Else
+            TestView.Items.Clear()
             TestView.Items.Add("请点击检测配置按钮以获取最新配置信息")
         End If
 
