@@ -1,0 +1,3 @@
+﻿Class WindowsTools
+
+End Class

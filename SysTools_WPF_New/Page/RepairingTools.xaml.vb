@@ -34,4 +34,14 @@ Class RepairingTools
         End If
     End Sub
 
+    Private Sub VisualC_MouseDoubleClick(sender As Object, e As MouseButtonEventArgs) Handles VisualC.MouseDoubleClick
+        If FileExist(AppPath + RepairingTools + "Visual-C-Runtimes\VisualC.Install.exe") Then
+            Try
+                Process.Start(AppPath + RepairingTools + "Visual-C-Runtimes\VisualC.Install.exe")
+            Catch ex As Exception
+            End Try
+        Else
+            Dialog.ShowAsync()
+        End If
+    End Sub
 End Class

@@ -100,8 +100,8 @@
     <Compile Include="Page\AdbTools.xaml.vb">
       <DependentUpon>AdbTools.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page\ChangeWindows.xaml.vb">
-      <DependentUpon>ChangeWindows.xaml</DependentUpon>
+    <Compile Include="Page\WindowsTools.xaml.vb">
+      <DependentUpon>WindowsTools.xaml</DependentUpon>
     </Compile>
     <Compile Include="Page\RepairingTools.xaml.vb">
       <DependentUpon>RepairingTools.xaml</DependentUpon>
@@ -176,7 +176,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Page\ChangeWindows.xaml">
+    <Page Include="Page\WindowsTools.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -355,6 +355,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resource\Icon\RepairingToolsICON\DirectX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resource\Icon\RepairingToolsICON\Visual-C-Runtimes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

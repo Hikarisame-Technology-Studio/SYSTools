@@ -1,3 +1,0 @@
-﻿Class ChangeWindows
-
-End Class

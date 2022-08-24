@@ -29,7 +29,7 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                             <TextBlock Text="DirectX安装工具" VerticalAlignment="Top" Margin="20,-26,0,0" HorizontalAlignment="Left" FontSize="15" Width="142"/>
                         </InlineUIContainer>
                         <InlineUIContainer>
-                            <TextBlock Text="用于安装DirectX文件" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Height="13" Width="650"/>
+                            <TextBlock Text="用于安装DirectX运行库" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-146,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Height="13" Width="650"/>
                         </InlineUIContainer>
                         <InlineUIContainer>
                             <Button x:Name="DirectX_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载" Background="{x:Null}" BorderBrush="{x:Null}" >
@@ -38,6 +38,29 @@ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                         </InlineUIContainer>
                         <InlineUIContainer>
                             <Button x:Name="DirectX_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件下载" Background="{x:Null}" BorderBrush="{x:Null}" >
+                                <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE774;" />
+                            </Button>
+                        </InlineUIContainer>
+                    </TextBlock>
+                </Button>
+
+                <Button x:Name="VisualC" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MinWidth="1030" MinHeight="66" Margin="5,5,5,0" HorizontalContentAlignment="Left">
+                    <TextBlock><InlineUIContainer>
+                            <Image Source="/SysTools_WPF_New;component/Resource/Icon/RepairingToolsICON/Visual-C-Runtimes.png" Width="50" Height="50"/>
+                        </InlineUIContainer>
+                        <InlineUIContainer>
+                            <TextBlock Text="VisualC运行库安装工具" VerticalAlignment="Top" Margin="20,-26,0,0" HorizontalAlignment="Left" FontSize="15" Width="166"/>
+                        </InlineUIContainer>
+                        <InlineUIContainer>
+                            <TextBlock Text="用于安装VisualC运行库" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="-170,-11,0,0" FontSize="10" Foreground="#FFCFCED1" Height="13" Width="650"/>
+                        </InlineUIContainer>
+                        <InlineUIContainer>
+                            <Button x:Name="VisualC_DL" HorizontalAlignment="Center" Margin="73,0,0,4" Width="50" Height="40" ToolTip="软件下载" Background="{x:Null}" BorderBrush="{x:Null}" >
+                                <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE118;" />
+                            </Button>
+                        </InlineUIContainer>
+                        <InlineUIContainer>
+                            <Button x:Name="VisualC_Web" HorizontalAlignment="Center" Margin="20,0,0,4" Width="50" Height="40" ToolTip="软件下载" Background="{x:Null}" BorderBrush="{x:Null}" >
                                 <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE774;" />
                             </Button>
                         </InlineUIContainer>

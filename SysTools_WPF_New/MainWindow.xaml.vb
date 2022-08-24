@@ -8,7 +8,7 @@ Class MainWindow
     Private PeripheralsTools As New Frame With {.Content = New PeripheralsTools}
     Private RepairingTools As New Frame With {.Content = New RepairingTools}
     Private AdbTools As New Frame With {.Content = New AdbTools}
-    Private ChangeWindows As New Frame With {.Content = New ChangeWindows}
+    Private ChangeWindows As New Frame With {.Content = New WindowsTools}
     Private WindowsActivation As New Frame With {.Content = New Activation}
     Private AboutPage As New Frame With {.Content = New About}
 
@@ -30,56 +30,56 @@ Class MainWindow
         FrameContent.Content = Home_Page
     End Sub
 
-    Private Sub Home_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Home.MouseDown
+    Private Sub Home_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Home.MouseLeftButtonDown
         '主页
         FrameContent.Content = Home_Page
     End Sub
 
-    Private Sub Fast_Detection_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Fast_Detection.MouseDown
+    Private Sub Fast_Detection_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Fast_Detection.MouseLeftButtonDown
         '系统配置快速检测 ( 基于 Windows Management Instrumentation )
         FrameContent.Content = FastDetection
     End Sub
 
-    Private Sub Detection_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Detection_Tools.MouseDown
+    Private Sub Detection_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Detection_Tools.MouseLeftButtonDown
         '配置检测工具 ( 仅64位系统 )
         FrameContent.Content = DetectionTools
     End Sub
-    Private Sub Test_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Test_Tools.MouseDown
+    Private Sub Test_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Test_Tools.MouseLeftButtonDown
         '硬件测试工具
         FrameContent.Content = TestTools
     End Sub
 
-    Private Sub Disk_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Disk_Tools.MouseDown
+    Private Sub Disk_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Disk_Tools.MouseLeftButtonDown
         '硬盘工具
         FrameContent.Content = DiskTools
     End Sub
 
-    Private Sub Peripherals_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Peripherals_Tools.MouseDown
+    Private Sub Peripherals_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Peripherals_Tools.MouseLeftButtonDown
         '外设工具
         FrameContent.Content = PeripheralsTools
     End Sub
 
-    Private Sub Repairing_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Repairing_Tools.MouseDown
+    Private Sub Repairing_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Repairing_Tools.MouseLeftButtonDown
         '运行库安装工具
         FrameContent.Content = RepairingTools
     End Sub
-    Private Sub Adb_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Adb_Tools.MouseDown
+    Private Sub Adb_Tools_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Adb_Tools.MouseLeftButtonDown
         'Adb工具Box
         FrameContent.Content = AdbTools
         Dim Dialog As New AdbDialog()
         Dialog.ShowAsync()
     End Sub
 
-    Private Sub ChangeWindows_Page_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles ChangeWindows_Page.MouseDown
+    Private Sub WindowsTools_Page_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles WindowsTools_Page.MouseLeftButtonDown
         'Windows时间线
         FrameContent.Content = ChangeWindows
     End Sub
-    Private Sub Windows_Activation_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Windows_Activation.MouseDown
+    Private Sub Windows_Activation_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles Windows_Activation.MouseLeftButtonDown
         '系统激活工具
         FrameContent.Content = WindowsActivation
     End Sub
 
-    Private Sub About_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles About.MouseDown
+    Private Sub About_MouseDown(sender As Object, e As MouseButtonEventArgs) Handles About.MouseLeftButtonDown
         '关于
         FrameContent.Content = AboutPage
     End Sub
@@ -138,6 +138,5 @@ Class MainWindow
         sw.WriteLine("记得重启软件 我没加热更新(因为我不会 （；´д｀）ゞ)")
         sw.Close()
     End Sub
-
 
 End Class

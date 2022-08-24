@@ -71,9 +71,9 @@
 
                 <muxc:NavigationViewItemSeparator/>
 
-                <muxc:NavigationViewItem Content="Windows Timeline" Tag="ChangeWindows" x:Name="ChangeWindows_Page" IsTabStop="False">
+                <muxc:NavigationViewItem Content="Windows Tools" Tag="Windows Tools" x:Name="WindowsTools_Page" IsTabStop="False">
                     <muxc:NavigationViewItem.Icon>
-                        <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xEBC6;" />
+                        <muxc:FontIcon FontFamily="{DynamicResource SegoeIcons}" Glyph="&#xE90F;" />
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
 
