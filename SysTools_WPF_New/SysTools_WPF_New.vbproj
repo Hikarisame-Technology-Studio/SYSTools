@@ -283,13 +283,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Autoupdater.NET.Official">
-      <Version>1.7.4</Version>
+      <Version>1.7.5</Version>
     </PackageReference>
     <PackageReference Include="FluentSystemIconsForWPF">
       <Version>1.0.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Web.WebView2">
-      <Version>1.0.1293.44</Version>
+      <Version>1.0.1370.28</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.Windows.SDK.Contracts">
       <Version>10.0.22621.2</Version>
