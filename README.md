@@ -1,4 +1,4 @@
-![SYSTools](https://socialify.git.ci/Hikarisame-Technology-Studio/SYSTools/image?description=1&descriptionEditable=%E2%9C%A8%E4%B8%8D%E4%BB%85%E4%BB%85%E6%98%AF%E4%B8%AA%E5%B7%A5%E5%85%B7%E7%AE%B1%F0%9F%8C%8F&font=KoHo&logo=https%3A%2F%2Fraw.githubusercontent.com%2FHikarisame-Technology-Studio%2FSYSTools%2FVB.Net%2FSysTools_WPF_New%2FLOGO.ico&name=1&owner=1&pattern=Floating%20Cogs&theme=Dark)
+![SYSTools](https://socialify.git.ci/Hikarisame-Technology-Studio/SYSTools/image?description=1&descriptionEditable=%E2%9C%A8%E4%B8%8D%E4%BB%85%E4%BB%85%E6%98%AF%E4%B8%AAWindows%E5%B7%A5%E5%85%B7%E7%AE%B1%F0%9F%8C%8F&font=Raleway&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FHikarisame-Technology-Studio%2FSYSTools%2FVB.Net%2FSysTools_WPF_New%2FLOGO.ico&name=1&owner=1&pattern=Floating%20Cogs&theme=Dark)
   
 ### SYSTools 基于VB.Net的系统工具箱
   
