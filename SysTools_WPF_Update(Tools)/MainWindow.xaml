@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:SysTools_WPF_Update_Tools_"
         muxc:WindowHelper.UseModernWindowStyle="True"
         mc:Ignorable="d"
-        Title="ToolsUpdate 工具包更新器" Loaded="Window_Loaded" Height="200" Width="410">
+        Title="ToolsUpdate 工具包更新器" Loaded="Window_Loaded" Height="200" Width="410" ShowInTaskbar="False" ResizeMode="NoResize">
     <Grid>
         <TextBlock x:Name="Version" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="18" Margin="0,35,0,0" Height="25" />
         <TextBlock x:Name="Cloud_Version" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Text="等待获取版本更新中..."/>
